@@ -1,0 +1,8 @@
+name: dofiretick_pocketmine_mp
+main: Meru\dofiretick_pocketmine_mp\Main
+version: 1.0.0
+api: [3.0.0 4.0.0]
+description: 放火するプレイヤーへの対策プラグイン。火の延焼をOFFにします。
+author: Meru
+website: https://github.com/Meru92/dofiretick_pocketmine-mp
+load: STARTUP
