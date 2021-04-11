@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Meru\dofiretick;
 
+/** 使わないのに描いてるuse文あります。
+ *　ごめんなさい。殴らないで
+ */
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\block\BlockBurnEvent;
 use pocketmine\plugin\PluginBase;
@@ -13,7 +16,6 @@ use pocketmine\PLayer;
 
 class Main extends PluginBase implements Listener {
 
-    /** @var TYPE_NAME $this */
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->info("§c=========");
@@ -22,7 +24,6 @@ class Main extends PluginBase implements Listener {
         $this->getLogger()->info("§c=========");
     }
 
-    /** @var TYPE_NAME $player */
     public function onJoin(PlayerJoinEvent $event) {
         $player = $event->getPlayer();
         $player->sendMessage("§7ゲームルール dofiretick をfalse(無効)にしました。これにより火の延焼が行われません。 \n開発元：める");
@@ -31,4 +32,5 @@ class Main extends PluginBase implements Listener {
     public function onBurn(BlockBurnEvent $event) {
         $event->setCancelled();
     }
+
 }
