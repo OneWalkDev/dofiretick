@@ -1,0 +1,8 @@
+# デフォルトの無視ファイル
+/shelf/
+/workspace.xml
+# データソースのローカルストレージがファイルを無視しました
+/../../../../../../../../../../:\Users\piki0\Desktop\Minecraft_Server\BedrockEdition\PocketMine-MP\plugins\dofiretick\.idea/dataSources/
+/dataSources.local.xml
+# エディターベースの HTTP クライアントリクエスト
+/httpRequests/
