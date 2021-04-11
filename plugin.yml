@@ -1,0 +1,8 @@
+name: dofiretick
+main: Meru\dofiretick\Main
+version: 1.0.0
+api: [3.0.0 4.0.0]
+description: 放火するプレイヤーへの対策プラグイン。火の延焼をOFFにします。
+author: Meru
+load: POSTWORLD
+website: https://github.com/Meru92/dofiretick
